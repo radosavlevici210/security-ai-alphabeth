@@ -1,0 +1,27 @@
+{
+  "name": "ai-video-processing-suite",
+  "version": "1.0.0",
+  "description": "AI Video Processing Suite - Open Access Production Ready",
+  "main": "index.html",
+  "author": "Ervin Remus Radosavlevici <radosavlevici210@icloud.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radosavlevici210/security-ai-alpha.git"
+  },
+  "scripts": {
+    "build": "mkdir -p dist && cp index.html dist/",
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 3000"
+  },
+  "keywords": [
+    "ai",
+    "video-processing",
+    "machine-learning",
+    "radosavlevici210",
+    "production-ready"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
