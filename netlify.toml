@@ -1,0 +1,25 @@
+[build]
+  publish = "."
+  command = "echo 'Build complete - No build process needed for static site'"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-Owner = "radosavlevici210"
+    X-Email = "radosavlevici210@icloud.com"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
