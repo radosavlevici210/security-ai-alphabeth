@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- saved from url=(0056)file:///C:/Users/14653/Downloads/enhanced_ai_studio.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Movie &amp; Music Studio Pro+ - Enhanced Professional Production | Ervin Radosavlevici</title>
-    <link href="./AI Movie &amp; Music Studio Pro+ - Enhanced Professional Production _ Ervin Radosavlevici_files/all.min.css" rel="stylesheet">
+    <title>AI Movie & Music Studio Pro+ - Enhanced Professional Production | Ervin Radosavlevici</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -654,35 +654,10 @@
             display: block;
         }
     </style>
-<style>
-                @keyframes progress-advance {
-                    0% { width: 0%; transform: translateX(-100%); }
-                    50% { width: 70%; transform: translateX(0%); }
-                    100% { width: 100%; transform: translateX(10%); }
-                }
-                
-                @keyframes enhanced-pulse {
-                    0%, 100% { box-shadow: 0 0 25px rgba(0, 255, 136, 0.4); }
-                    50% { box-shadow: 0 0 50px rgba(0, 255, 136, 0.8); }
-                }
-                
-                .feature-card {
-                    animation: enhanced-pulse 5s infinite;
-                }
-                
-                @keyframes quantum-glow {
-                    0%, 100% { text-shadow: 0 0 20px rgba(0, 255, 136, 0.5), 0 0 40px rgba(0, 153, 255, 0.3); }
-                    33% { text-shadow: 0 0 30px rgba(255, 0, 128, 0.5), 0 0 50px rgba(255, 170, 0, 0.3); }
-                    66% { text-shadow: 0 0 25px rgba(0, 255, 255, 0.5), 0 0 45px rgba(138, 43, 226, 0.3); }
-                }
-                
-                .logo {
-                    animation: quantum-glow 6s infinite;
-                }
-            </style></head>
+</head>
 <body>
     <div class="header-banner">
-        🎬 PROFESSIONAL AI MOVIE &amp; MUSIC STUDIO PRO+ | ENHANCED PRODUCTION | 43 HOURS CONTENT | OWNER: radosavlevici210@icloud.com
+        🎬 PROFESSIONAL AI MOVIE & MUSIC STUDIO PRO+ | ENHANCED PRODUCTION | 43 HOURS CONTENT | OWNER: radosavlevici210@icloud.com
     </div>
 
     <div class="offline-indicator">
@@ -735,7 +710,7 @@
             </h3>
             <p>Advanced AI with multi-model selection, real-time optimization, and collaborative learning</p>
             <div class="learning-progress">
-                <div class="learning-fill" style="width: 100%;"></div>
+                <div class="learning-fill"></div>
             </div>
             <div style="display: flex; justify-content: space-between; font-size: 14px; margin-top: 10px;">
                 <span>Learning Speed: <strong>Quantum Mode</strong></span>
@@ -747,19 +722,19 @@
 
         <!-- Workspace Tabs -->
         <div class="workspace-tabs">
-            <button class="workspace-tab active" onclick="switchWorkspace(&#39;content&#39;)">
+            <button class="workspace-tab active" onclick="switchWorkspace('content')">
                 <i class="fas fa-video"></i> Content Creation
             </button>
-            <button class="workspace-tab" onclick="switchWorkspace(&#39;advanced&#39;)">
+            <button class="workspace-tab" onclick="switchWorkspace('advanced')">
                 <i class="fas fa-cog"></i> Advanced Tools
             </button>
-            <button class="workspace-tab" onclick="switchWorkspace(&#39;collaboration&#39;)">
+            <button class="workspace-tab" onclick="switchWorkspace('collaboration')">
                 <i class="fas fa-users"></i> Collaboration
             </button>
-            <button class="workspace-tab" onclick="switchWorkspace(&#39;analytics&#39;)">
+            <button class="workspace-tab" onclick="switchWorkspace('analytics')">
                 <i class="fas fa-chart-line"></i> Analytics
             </button>
-            <button class="workspace-tab" onclick="switchWorkspace(&#39;distribution&#39;)">
+            <button class="workspace-tab" onclick="switchWorkspace('distribution')">
                 <i class="fas fa-share-alt"></i> Distribution
             </button>
         </div>
@@ -767,8 +742,8 @@
         <!-- Content Creation Workspace -->
         <div id="content-workspace" class="workspace-content active">
             <!-- Global Messages -->
-            <div id="global-success" class="success-message" style="display: none;">
-                <i class="fas fa-check-circle"></i> <span id="success-text">🎉 Enhanced Professional AI Studio Pro+ loaded! Ready for 43-hour content creation with advanced collaboration!</span>
+            <div id="global-success" class="success-message">
+                <i class="fas fa-check-circle"></i> <span id="success-text"></span>
             </div>
             <div id="global-error" class="error-message">
                 <i class="fas fa-exclamation-triangle"></i> <span id="error-text"></span>
@@ -783,8 +758,9 @@
                     </div>
                     
                     <div class="input-group">
-                        <label class="input-label">Movie Script &amp; Concept:</label>
-                        <textarea class="input-field textarea-field" id="movie-script" placeholder="Write your complete movie script with enhanced AI analysis...
+                        <label class="input-label">Movie Script & Concept:</label>
+                        <textarea class="input-field textarea-field" id="movie-script" 
+                                  placeholder="Write your complete movie script with enhanced AI analysis...
 
 Example:
 TITLE: AI Revolution 2.0
@@ -816,7 +792,7 @@ Epic conclusion with stunning visual effects...
                                 <option value="30">30 minutes (Medium)</option>
                                 <option value="60">1 hour (Feature)</option>
                                 <option value="90">1.5 hours (Standard)</option>
-                                <option value="120" selected="">2 hours (Full Movie)</option>
+                                <option value="120" selected>2 hours (Full Movie)</option>
                                 <option value="180">3 hours (Epic)</option>
                                 <option value="custom">Custom Duration</option>
                             </select>
@@ -835,7 +811,7 @@ Epic conclusion with stunning visual effects...
                             <label class="input-label">Production Quality:</label>
                             <select class="input-field" id="movie-quality">
                                 <option value="8k">8K Ultra HD (Cinema)</option>
-                                <option value="4k" selected="">4K Ultra HD</option>
+                                <option value="4k" selected>4K Ultra HD</option>
                                 <option value="1080p">1080p Full HD</option>
                                 <option value="imax">IMAX Quality</option>
                             </select>
@@ -851,7 +827,9 @@ Epic conclusion with stunning visual effects...
                         </div>
                     </div>
 
-                    <div class="duration-display" id="movie-duration-display">2:00:00 Hours</div>
+                    <div class="duration-display" id="movie-duration-display">
+                        2:00:00 Hours
+                    </div>
 
                     <div style="display: flex; gap: 15px; flex-wrap: wrap;">
                         <button class="btn btn-movie" onclick="createEnhancedMovie()" id="create-movie-btn">
@@ -860,7 +838,7 @@ Epic conclusion with stunning visual effects...
                         <button class="btn btn-premium" onclick="analyzeScript()">
                             <i class="fas fa-search"></i> AI Script Analysis
                         </button>
-                        <button class="btn" onclick="openAdvancedEditor(&#39;movie&#39;)">
+                        <button class="btn" onclick="openAdvancedEditor('movie')">
                             <i class="fas fa-edit"></i> Advanced Editor
                         </button>
                     </div>
@@ -888,8 +866,9 @@ Epic conclusion with stunning visual effects...
                     </div>
                     
                     <div class="input-group">
-                        <label class="input-label">Album Concept &amp; Enhanced Analysis:</label>
-                        <textarea class="input-field textarea-field" id="album-concept" placeholder="Describe your complete album with enhanced features...
+                        <label class="input-label">Album Concept & Enhanced Analysis:</label>
+                        <textarea class="input-field textarea-field" id="album-concept" 
+                                  placeholder="Describe your complete album with enhanced features...
 
 Example:
 ALBUM: Digital Dreams Evolved
@@ -898,12 +877,12 @@ THEME: AI-Human Harmony
 MOOD ANALYSIS: Uplifting, Futuristic, Emotional
 TARGET GENRE: Electronic Pop with Classical Elements
 
-TRACK 1: &#39;Binary Hearts 2.0&#39; (Electronic Pop, 4:30)
+TRACK 1: 'Binary Hearts 2.0' (Electronic Pop, 4:30)
 BPM: 128, KEY: C Major, ENERGY: High
 Verse 1: In the digital age we dance tonight...
 Chorus: Binary hearts beating as one...
 
-TRACK 2: &#39;Neural Networks Symphony&#39; (Orchestral Electronic, 6:45)
+TRACK 2: 'Neural Networks Symphony' (Orchestral Electronic, 6:45)
 BPM: 90, KEY: A Minor, ENERGY: Medium
 Advanced AI orchestration with real instruments...
 
@@ -925,7 +904,7 @@ Advanced AI orchestration with real instruments...
                             <label class="input-label">Audio Mastering:</label>
                             <select class="input-field" id="audio-mastering">
                                 <option value="radio-ready">Radio Ready</option>
-                                <option value="streaming-optimized" selected="">Streaming Optimized</option>
+                                <option value="streaming-optimized" selected>Streaming Optimized</option>
                                 <option value="vinyl-master">Vinyl Master</option>
                                 <option value="audiophile">Audiophile Quality</option>
                             </select>
@@ -942,23 +921,23 @@ Advanced AI orchestration with real instruments...
                         <div class="setting-item">
                             <label class="input-label">Market Analysis:</label>
                             <div style="display: flex; gap: 10px; align-items: center;">
-                                <input type="checkbox" id="market-analysis" checked="">
+                                <input type="checkbox" id="market-analysis" checked>
                                 <label for="market-analysis">Enable AI market trend analysis</label>
                             </div>
                         </div>
                     </div>
 
                     <div class="genre-selector">
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;pop&#39;)">Pop</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;rock&#39;)">Rock</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;electronic&#39;)">Electronic</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;classical&#39;)">Classical</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;jazz&#39;)">Jazz</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;ambient&#39;)">Ambient</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;hip-hop&#39;)">Hip Hop</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;country&#39;)">Country</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;experimental&#39;)">Experimental</div>
-                        <div class="genre-item" onclick="toggleGenre(this, &#39;world&#39;)">World Music</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'pop')">Pop</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'rock')">Rock</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'electronic')">Electronic</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'classical')">Classical</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'jazz')">Jazz</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'ambient')">Ambient</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'hip-hop')">Hip Hop</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'country')">Country</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'experimental')">Experimental</div>
+                        <div class="genre-item" onclick="toggleGenre(this, 'world')">World Music</div>
                     </div>
 
                     <div style="display: flex; gap: 15px; flex-wrap: wrap;">
@@ -991,7 +970,8 @@ Advanced AI orchestration with real instruments...
                     
                     <div class="input-group">
                         <label class="input-label">Enhanced Animation Concept:</label>
-                        <textarea class="input-field textarea-field" id="animation-concept" placeholder="Describe your animation with advanced features...
+                        <textarea class="input-field textarea-field" id="animation-concept" 
+                                  placeholder="Describe your animation with advanced features...
 
 Example:
 TITLE: The AI Adventure: Evolution
@@ -1000,7 +980,7 @@ STYLE: Pixar-quality with Anime influences
 BUDGET: $10M estimated
 
 STORY ANALYSIS:
-- Hero&#39;s Journey structure
+- Hero's Journey structure
 - 3-act progression
 - Character development arcs
 - Visual metaphors for AI concepts
@@ -1031,7 +1011,7 @@ TECHNICAL SPECS:
                                 <option value="pixar-pro">Pixar Pro Engine</option>
                                 <option value="anime-master">Anime Master</option>
                                 <option value="realistic-3d">Realistic 3D</option>
-                                <option value="hybrid-engine" selected="">Hybrid Engine</option>
+                                <option value="hybrid-engine" selected>Hybrid Engine</option>
                                 <option value="experimental">Experimental AI</option>
                             </select>
                         </div>
@@ -1040,7 +1020,7 @@ TECHNICAL SPECS:
                             <select class="input-field" id="rendering-quality">
                                 <option value="real-time">Real-time Preview</option>
                                 <option value="production">Production Quality</option>
-                                <option value="cinema" selected="">Cinema Quality</option>
+                                <option value="cinema" selected>Cinema Quality</option>
                                 <option value="imax">IMAX Quality</option>
                             </select>
                         </div>
@@ -1048,14 +1028,15 @@ TECHNICAL SPECS:
                             <label class="input-label">Physics Engine:</label>
                             <select class="input-field" id="physics-engine">
                                 <option value="standard">Standard Physics</option>
-                                <option value="advanced" selected="">Advanced Physics</option>
+                                <option value="advanced" selected>Advanced Physics</option>
                                 <option value="realistic">Realistic Simulation</option>
                                 <option value="stylized">Stylized Physics</option>
                             </select>
                         </div>
                         <div class="setting-item">
                             <label class="input-label">AI Assistance Level:</label>
-                            <input type="range" class="slider" id="ai-assistance" min="1" max="10" value="8" oninput="updateAIAssistance(this.value)">
+                            <input type="range" class="slider" id="ai-assistance" min="1" max="10" value="8" 
+                                   oninput="updateAIAssistance(this.value)">
                             <div style="text-align: center; margin-top: 10px;">
                                 <span id="ai-assistance-display">Advanced (8/10)</span>
                             </div>
@@ -1087,12 +1068,13 @@ TECHNICAL SPECS:
                 <div class="feature-card">
                     <div class="card-header">
                         <i class="fas fa-microphone-alt card-icon"></i>
-                        <div class="card-title">Advanced Voice &amp; Audio</div>
+                        <div class="card-title">Advanced Voice & Audio</div>
                     </div>
                     
                     <div class="input-group">
                         <label class="input-label">Enhanced Voice Script:</label>
-                        <textarea class="input-field textarea-field" id="voice-script" placeholder="Professional voice script with advanced features...
+                        <textarea class="input-field textarea-field" id="voice-script" 
+                                  placeholder="Professional voice script with advanced features...
 
 Example:
 PROJECT: AI Revolution Documentary
@@ -1140,7 +1122,7 @@ ADVANCED FEATURES:
                                 <option value="broadcast">Broadcast Quality</option>
                                 <option value="podcast">Podcast Optimized</option>
                                 <option value="audiobook">Audiobook Master</option>
-                                <option value="cinema" selected="">Cinema Audio</option>
+                                <option value="cinema" selected>Cinema Audio</option>
                             </select>
                         </div>
                         <div class="setting-item">
@@ -1149,7 +1131,7 @@ ADVANCED FEATURES:
                                 <div><input type="checkbox" id="emotion-happy"> Happy</div>
                                 <div><input type="checkbox" id="emotion-sad"> Sad</div>
                                 <div><input type="checkbox" id="emotion-excited"> Excited</div>
-                                <div><input type="checkbox" id="emotion-calm" checked=""> Calm</div>
+                                <div><input type="checkbox" id="emotion-calm" checked> Calm</div>
                                 <div><input type="checkbox" id="emotion-dramatic"> Dramatic</div>
                                 <div><input type="checkbox" id="emotion-mysterious"> Mysterious</div>
                             </div>
@@ -1157,7 +1139,7 @@ ADVANCED FEATURES:
                         <div class="setting-item">
                             <label class="input-label">Real-time Processing:</label>
                             <div style="display: flex; gap: 10px; align-items: center;">
-                                <input type="checkbox" id="realtime-processing" checked="">
+                                <input type="checkbox" id="realtime-processing" checked>
                                 <label for="realtime-processing">Enable real-time voice modification</label>
                             </div>
                         </div>
@@ -1243,32 +1225,32 @@ ADVANCED FEATURES:
                     <h3 style="color: #00ff88; margin-bottom: 20px; text-align: center;">
                         <i class="fas fa-brain"></i> Advanced AI Model Selection
                     </h3>
-                    <div class="model-item" onclick="selectAIModel(&#39;gpt-4-turbo&#39;)">
+                    <div class="model-item" onclick="selectAIModel('gpt-4-turbo')">
                         <i class="fas fa-rocket" style="font-size: 2rem; color: #00ff88; margin-bottom: 10px;"></i>
                         <h4>GPT-4 Turbo</h4>
                         <small>Enhanced creativity and reasoning</small>
                     </div>
-                    <div class="model-item" onclick="selectAIModel(&#39;claude-3-opus&#39;)">
+                    <div class="model-item" onclick="selectAIModel('claude-3-opus')">
                         <i class="fas fa-star" style="font-size: 2rem; color: #0099ff; margin-bottom: 10px;"></i>
                         <h4>Claude-3 Opus</h4>
                         <small>Advanced analysis and writing</small>
                     </div>
-                    <div class="model-item" onclick="selectAIModel(&#39;dall-e-3&#39;)">
+                    <div class="model-item" onclick="selectAIModel('dall-e-3')">
                         <i class="fas fa-image" style="font-size: 2rem; color: #ff0080; margin-bottom: 10px;"></i>
                         <h4>DALL-E 3</h4>
                         <small>Advanced image generation</small>
                     </div>
-                    <div class="model-item" onclick="selectAIModel(&#39;midjourney-v6&#39;)">
+                    <div class="model-item" onclick="selectAIModel('midjourney-v6')">
                         <i class="fas fa-palette" style="font-size: 2rem; color: #ffaa00; margin-bottom: 10px;"></i>
                         <h4>Midjourney V6</h4>
                         <small>Artistic image creation</small>
                     </div>
-                    <div class="model-item" onclick="selectAIModel(&#39;suno-ai&#39;)">
+                    <div class="model-item" onclick="selectAIModel('suno-ai')">
                         <i class="fas fa-music" style="font-size: 2rem; color: #00ffff; margin-bottom: 10px;"></i>
                         <h4>Suno AI</h4>
                         <small>Advanced music generation</small>
                     </div>
-                    <div class="model-item" onclick="selectAIModel(&#39;runway-gen3&#39;)">
+                    <div class="model-item" onclick="selectAIModel('runway-gen3')">
                         <i class="fas fa-video" style="font-size: 2rem; color: #ff6b6b; margin-bottom: 10px;"></i>
                         <h4>Runway Gen-3</h4>
                         <small>Video generation and editing</small>
@@ -1285,7 +1267,7 @@ ADVANCED FEATURES:
                             <h5 style="color: #ffa500; margin-bottom: 15px;">Batch Video Processing</h5>
                             <div class="input-group">
                                 <label class="input-label">Processing Queue:</label>
-                                <select class="input-field" id="batch-video-queue" multiple="">
+                                <select class="input-field" id="batch-video-queue" multiple>
                                     <option value="movie1">AI Revolution Movie</option>
                                     <option value="movie2">Space Adventure</option>
                                     <option value="movie3">Drama Series EP1</option>
@@ -1299,7 +1281,7 @@ ADVANCED FEATURES:
                             <h5 style="color: #ffa500; margin-bottom: 15px;">Batch Audio Processing</h5>
                             <div class="input-group">
                                 <label class="input-label">Audio Queue:</label>
-                                <select class="input-field" id="batch-audio-queue" multiple="">
+                                <select class="input-field" id="batch-audio-queue" multiple>
                                     <option value="album1">Digital Dreams Album</option>
                                     <option value="album2">Jazz Collection</option>
                                     <option value="album3">Podcast Series</option>
@@ -1591,32 +1573,32 @@ ADVANCED FEATURES:
                 </h2>
 
                 <div class="export-formats">
-                    <div class="format-item" onclick="selectFormat(&#39;movie&#39;)">
+                    <div class="format-item" onclick="selectFormat('movie')">
                         <i class="fas fa-film" style="font-size: 2rem; color: #00ff88; margin-bottom: 10px;"></i>
                         <h4>Movie Distribution</h4>
                         <small>Cinema, Streaming, Digital</small>
                     </div>
-                    <div class="format-item" onclick="selectFormat(&#39;music&#39;)">
+                    <div class="format-item" onclick="selectFormat('music')">
                         <i class="fas fa-music" style="font-size: 2rem; color: #0099ff; margin-bottom: 10px;"></i>
                         <h4>Music Distribution</h4>
                         <small>Spotify, Apple, Radio</small>
                     </div>
-                    <div class="format-item" onclick="selectFormat(&#39;streaming&#39;)">
+                    <div class="format-item" onclick="selectFormat('streaming')">
                         <i class="fas fa-stream" style="font-size: 2rem; color: #ffaa00; margin-bottom: 10px;"></i>
                         <h4>Live Streaming</h4>
                         <small>YouTube Live, Twitch</small>
                     </div>
-                    <div class="format-item" onclick="selectFormat(&#39;podcast&#39;)">
+                    <div class="format-item" onclick="selectFormat('podcast')">
                         <i class="fas fa-podcast" style="font-size: 2rem; color: #ff0080; margin-bottom: 10px;"></i>
                         <h4>Podcast Distribution</h4>
                         <small>All major platforms</small>
                     </div>
-                    <div class="format-item" onclick="selectFormat(&#39;social&#39;)">
+                    <div class="format-item" onclick="selectFormat('social')">
                         <i class="fas fa-share-alt" style="font-size: 2rem; color: #00ffff; margin-bottom: 10px;"></i>
                         <h4>Social Media</h4>
                         <small>TikTok, Instagram, Twitter</small>
                     </div>
-                    <div class="format-item" onclick="selectFormat(&#39;nft&#39;)">
+                    <div class="format-item" onclick="selectFormat('nft')">
                         <i class="fas fa-coins" style="font-size: 2rem; color: #ffd700; margin-bottom: 10px;"></i>
                         <h4>NFT Marketplace</h4>
                         <small>OpenSea, Foundation</small>
@@ -1630,7 +1612,7 @@ ADVANCED FEATURES:
                         <ul style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">
                             <li>8K video upload ready</li>
                             <li>AI-generated thumbnails</li>
-                            <li>SEO-optimized titles &amp; descriptions</li>
+                            <li>SEO-optimized titles & descriptions</li>
                             <li>Auto-generated chapters</li>
                             <li>Monetization enabled</li>
                             <li>Live streaming integration</li>
@@ -1644,7 +1626,7 @@ ADVANCED FEATURES:
                         <h4 style="color: #1ed760; margin-bottom: 15px;"><i class="fab fa-spotify"></i> Spotify Enhanced</h4>
                         <ul style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">
                             <li>Professional mastering</li>
-                            <li>Metadata &amp; artwork optimization</li>
+                            <li>Metadata & artwork optimization</li>
                             <li>ISRC codes generation</li>
                             <li>Playlist submission</li>
                             <li>Artist verification</li>
@@ -1656,7 +1638,7 @@ ADVANCED FEATURES:
                     </div>
 
                     <div style="background: rgba(0,255,255,0.1); border: 2px solid #00ffff; padding: 20px; border-radius: 15px;">
-                        <h4 style="color: #00ffff; margin-bottom: 15px;"><i class="fas fa-tv"></i> TV &amp; Cinema</h4>
+                        <h4 style="color: #00ffff; margin-bottom: 15px;"><i class="fas fa-tv"></i> TV & Cinema</h4>
                         <ul style="font-size: 14px; line-height: 1.6; margin-bottom: 15px;">
                             <li>DCI 4K compliance</li>
                             <li>Dolby Atmos audio</li>
@@ -1674,7 +1656,7 @@ ADVANCED FEATURES:
                 <!-- Marketing & Analytics Integration -->
                 <div style="background: rgba(255,215,0,0.1); border: 2px solid #ffd700; padding: 25px; border-radius: 15px; margin: 25px 0;">
                     <h4 style="color: #ffd700; margin-bottom: 20px;">
-                        <i class="fas fa-chart-line"></i> Marketing &amp; Analytics Integration
+                        <i class="fas fa-chart-line"></i> Marketing & Analytics Integration
                     </h4>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
                         <div>
@@ -1720,7 +1702,7 @@ ADVANCED FEATURES:
         <!-- Cloud Storage Integration -->
         <div class="cloud-storage">
             <h2 style="color: #00bfff; margin-bottom: 30px; text-align: center;">
-                <i class="fas fa-cloud"></i> Enhanced Cloud Storage &amp; Sync
+                <i class="fas fa-cloud"></i> Enhanced Cloud Storage & Sync
             </h2>
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
                 <div style="background: rgba(0,0,0,0.3); padding: 20px; border-radius: 15px;">
@@ -1770,15 +1752,15 @@ ADVANCED FEATURES:
                 <div style="background: rgba(0,0,0,0.3); padding: 25px; border-radius: 15px;">
                     <h4 style="color: #00ff88; margin-bottom: 15px;">Enhanced Content Statistics</h4>
                     <div id="enhanced-content-stats">
-                    <div>Movies Created: <strong>0</strong></div>
-                    <div>Albums Produced: <strong>0</strong></div>
-                    <div>Animations Made: <strong>0</strong></div>
-                    <div>Voice Projects: <strong>0</strong></div>
-                    <div>Total Duration: <strong>0:00:00</strong></div>
-                    <div>Quality Score: <strong>100%</strong></div>
-                    <div>AI Models Used: <strong>1</strong></div>
-                    <div>Collaborators: <strong>1</strong></div>
-                </div>
+                        <div>Movies Created: <strong>0</strong></div>
+                        <div>Albums Produced: <strong>0</strong></div>
+                        <div>Animations Made: <strong>0</strong></div>
+                        <div>Voice Projects: <strong>0</strong></div>
+                        <div>Total Duration: <strong>0:00:00</strong></div>
+                        <div>Quality Score: <strong>99.2%</strong></div>
+                        <div>AI Models Used: <strong>12</strong></div>
+                        <div>Collaborators: <strong>1</strong></div>
+                    </div>
                 </div>
                 
                 <div style="background: rgba(0,0,0,0.3); padding: 25px; border-radius: 15px;">
@@ -1794,7 +1776,9 @@ ADVANCED FEATURES:
                 
                 <div style="background: rgba(0,0,0,0.3); padding: 25px; border-radius: 15px;">
                     <h4 style="color: #00ff88; margin-bottom: 15px;">Enhanced Production Queue</h4>
-                    <div id="enhanced-production-queue"><div style="color: #666; text-align: center;">No items in queue</div></div>
+                    <div id="enhanced-production-queue">
+                        <div style="color: #666; text-align: center;">No items in queue</div>
+                    </div>
                     <button class="btn" onclick="showEnhancedProductionQueue()" style="width: 100%; margin-top: 15px;">
                         <i class="fas fa-list"></i> Manage Enhanced Queue
                     </button>
@@ -1808,9 +1792,10 @@ ADVANCED FEATURES:
                 <i class="fab fa-github"></i> Enhanced Professional Production Deployment
             </h2>
             <p style="margin-bottom: 30px; font-size: 18px;">
-                Deploy this complete Enhanced AI Movie &amp; Music Studio Pro+ for professional production use!
+                Deploy this complete Enhanced AI Movie & Music Studio Pro+ for professional production use!
             </p>
-            <a href="https://app.netlify.com/start/deploy?repository=https://github.com/radosavlevici210/security-ai-alpha" target="_blank" class="btn btn-professional" style="font-size: 20px; padding: 25px 50px;">
+            <a href="https://app.netlify.com/start/deploy?repository=https://github.com/radosavlevici210/security-ai-alpha" 
+               target="_blank" class="btn btn-professional" style="font-size: 20px; padding: 25px 50px;">
                 🚀 Deploy Enhanced Professional Studio
             </a>
             <div style="margin-top: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px;">
@@ -1822,27 +1807,27 @@ ADVANCED FEATURES:
                 <div style="background: rgba(0,255,136,0.1); padding: 25px; border-radius: 15px;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">🎵</div>
                     <div><strong>Advanced Albums</strong></div>
-                    <small>Market analysis &amp; collaboration</small>
+                    <small>Market analysis & collaboration</small>
                 </div>
                 <div style="background: rgba(0,255,136,0.1); padding: 25px; border-radius: 15px;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">✨</div>
                     <div><strong>Cinema Animation</strong></div>
-                    <small>Advanced physics &amp; AI</small>
+                    <small>Advanced physics & AI</small>
                 </div>
                 <div style="background: rgba(0,255,136,0.1); padding: 25px; border-radius: 15px;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">🧠</div>
                     <div><strong>Enhanced AI</strong></div>
-                    <small>12 models &amp; real-time learning</small>
+                    <small>12 models & real-time learning</small>
                 </div>
                 <div style="background: rgba(0,255,136,0.1); padding: 25px; border-radius: 15px;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">👥</div>
                     <div><strong>Real-time Collaboration</strong></div>
-                    <small>Live editing &amp; chat</small>
+                    <small>Live editing & chat</small>
                 </div>
                 <div style="background: rgba(0,255,136,0.1); padding: 25px; border-radius: 15px;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">📊</div>
                     <div><strong>Advanced Analytics</strong></div>
-                    <small>Performance &amp; market insights</small>
+                    <small>Performance & market insights</small>
                 </div>
                 <div style="background: rgba(0,255,136,0.1); padding: 25px; border-radius: 15px;">
                     <div style="font-size: 2rem; margin-bottom: 10px;">☁️</div>
@@ -2779,5 +2764,5 @@ ADVANCED FEATURES:
         console.log('🌐 Enhanced Distribution: All platforms + marketing');
         console.log('💎 Owner: Ervin Remus Radosavlevici (radosavlevici210@icloud.com)');
     </script>
-
-</body></html>
+</body>
+</html>
