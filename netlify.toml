@@ -1,6 +1,6 @@
 [build]
-  publish = "."
-  command = "echo 'Build complete - No build process needed for static site'"
+  publish = "dist/"
+  command = "npm run build"
 
 [build.environment]
   NODE_VERSION = "18"
@@ -13,13 +13,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "SAMEORIGIN"
+    X-Frame-Options = "DENY"
     X-Content-Type-Options = "nosniff"
     X-Owner = "radosavlevici210"
     X-Email = "radosavlevici210@icloud.com"
-    Cache-Control = "public, max-age=3600"
-
-[[headers]]
-  for = "*.html"
-  [headers.values]
-    Cache-Control = "public, max-age=0, must-revalidate"
