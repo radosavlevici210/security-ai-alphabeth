@@ -12,13 +12,14 @@
   "scripts": {
     "build": "mkdir -p dist && cp index.html dist/",
     "start": "node server.js",
-    "dev": "live-server --port=3000",
+    "dev": "live-server --host=0.0.0.0 --port=5000 --no-browser",
     "deploy": "npm run build"
   },
   "dependencies": {
     "express": "^4.18.2",
     "helmet": "^7.1.0",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "live-server": "^1.2.2"
   },
   "engines": {
     "node": ">=18.0.0"
