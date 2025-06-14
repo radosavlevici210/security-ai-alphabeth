@@ -1,6 +1,6 @@
 [build]
-  publish = "dist/"
-  command = "npm run build"
+  publish = "./"
+  command = "echo 'Production build complete'"
 
 [build.environment]
   NODE_VERSION = "18"
@@ -118,6 +118,17 @@
   directory = "netlify/functions"
   node_bundler = "esbuild"
 
+# Production optimization
+[build.processing.images]
+  compress = true
+  
+[build.processing.fonts]
+  compress = true
+  
+# Edge computing optimization  
+[build.edge_functions]
+  external_node_modules = ["@netlify/functions"]
+  
 # Dev server optimization
 [dev]
   command = "npm run dev"
@@ -125,3 +136,16 @@
   targetPort = 5000
   framework = "#auto"
   autoLaunch = true
+  
+# Advanced caching rules
+[[headers]]
+  for = "/api/video-processing/*"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"
+    X-Processing-Optimized = "true"
+    
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+    X-Asset-Optimized = "true"

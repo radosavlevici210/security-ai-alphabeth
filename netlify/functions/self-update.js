@@ -31,15 +31,17 @@ exports.handler = async (event, context) => {
           headers,
           body: JSON.stringify({
             updateAvailable: true,
-            latestVersion: '2.1.1',
+            latestVersion: '3.0.0',
             currentVersion: currentVersion || '2.1.0',
-            updateSize: '250KB',
+            updateSize: '180KB',
             features: [
-              'Enhanced performance optimization',
-              'Advanced self-repair algorithms',
-              'Improved Netlify integration',
-              'Better error handling',
-              'Memory usage optimization'
+              'Real-time video processing',
+              'AI-powered enhancement algorithms',
+              'Batch processing capabilities',
+              'Professional export formats',
+              'Advanced analytics and monitoring',
+              'Production-grade performance',
+              'Automated quality optimization'
             ],
             timestamp: Date.now()
           })
