@@ -207,7 +207,7 @@
             box-shadow: 0 15px 30px rgba(0, 255, 136, 0.4);
         }
 
-        .btn: {
+        .btn:disabled {
             opacity: 0.6;
             cursor: not-allowed;
             transform: none;
@@ -2483,10 +2483,10 @@ ADVANCED FEATURES:
             if (!btn) return;
             
             if (loading) {
-                btn. = true;
+                btn.disabled = true;
                 btn.innerHTML = '<i class="fas fa-atom fa-spin"></i> Enhanced AI Processing...';
             } else {
-                btn. = false;
+                btn.disabled = false;
                 restoreButtonContent(buttonId);
             }
         }
