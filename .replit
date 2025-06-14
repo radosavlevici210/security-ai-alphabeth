@@ -10,19 +10,10 @@ run = ["sh", "-c", "npm run dev"]
 [workflows]
 runButton = "Auto-Repair System"
 
-[[workflows.workflow]]
-name = "Auto-Repair System"
-author = 43847013
-mode = "sequential"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "npm install"
-
-[[workflows.workflow.tasks]]
-task = "shell.exec"
-args = "npm run dev"
-
 [[ports]]
 localPort = 3000
 externalPort = 80
+
+[[ports]]
+localPort = 5000
+externalPort = 3000
